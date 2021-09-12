@@ -1,0 +1,28 @@
+* {
+  font-family: "ubuntulight";
+  font-weight: bolder;
+}
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+#footer {
+  position: sticky;
+  bottom: 0;
+}
+#content {
+  background-color: white;
+  min-height: 100vh;
+}
+#formNewPost {
+  max-width: 500px;
+  height: 400px;
+  background-color: lavender;
+  margin: 18px auto;
+}
+.comment {
+  list-style-type: none;
+  float: left;
+}
